@@ -2,7 +2,9 @@ import React, { HTMLAttributes, FC, ReactNode } from 'react'
 import * as S from './styles'
 
 export type ButtonProps = HTMLAttributes<HTMLButtonElement> & {
+  /** Children */
   children: ReactNode;
+  /** Estica o componente ocupando 100% do conteudo do elemento pai */
   fullWidth?: boolean;
 }
 

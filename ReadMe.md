@@ -5,3 +5,9 @@
 - criacao dos npm scripts com os comandos do next
 - instalacao automaticos das devDependencies `@types/react`, `@types/node` e do `typescript`
 - `npx gitignore node`
+
+## Adicinando storybook
+
+`npx storybook init`
+
+### Lidando com temas
