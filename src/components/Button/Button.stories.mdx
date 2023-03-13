@@ -1,0 +1,30 @@
+import {
+  Title,
+  Subtitle,
+  Description,
+  Primary,
+  ArgsTable,
+  Stories,
+  PRIMARY_STORY,
+  Meta,
+  Story,
+  Canvas,
+} from '@storybook/addon-docs';
+import Button from '.'
+
+        
+<Meta title="components/Button" />
+
+# Button
+
+<ArgsTable of={Button} />   
+
+<Canvas>
+  <Story
+    name="Button Example"
+    args={{ children: 'Texto do botão' }}
+  >
+    {(args) => <Button {...args} />}
+  </Story>
+</Canvas>
+
