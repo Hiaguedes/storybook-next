@@ -10,4 +10,8 @@
 
 `npx storybook init`
 
-### Lidando com temas
+### Pra buildar com o storybook
+
+```
+yarn install && yarn build-storybook
+```
